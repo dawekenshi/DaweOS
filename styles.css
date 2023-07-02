@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#dawe {
+    background-image: url("https://i.ibb.co/ThfVLb9/wallpaper-bliss-landscape-windows-xp-stock-4k-nature-nhvtxpop808oaye4.jpg");
+    background-size: 100% 90vh;
+    background-repeat: no-repeat;
+}
+
+.window {
+    background-color: #D7D7D7;
+    width: 45vw;
+    height: 80vh;
+}
+
+#topbar {
+    background-color: #949494;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7vw;
+}
+
+#topleft {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 0.7vw;
+}
+
+
+#topright {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1.3vw;
+}
+
+.close {
+    background-image: url("https://i.ibb.co/txs8Wnn/image-removebg-preview.png");
+    background-size: 100% 4.5vh;
+    cursor: pointer;
+    height: 4.5vh;
+    width: 2vw;
+}
+
+#win-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    gap: 3vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+
+#taskbar {
+    background-color: #1C1C1C;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

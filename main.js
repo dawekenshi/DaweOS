@@ -1,7 +1,6 @@
 let cont = document.getElementById("win-cont");
 let wins = document.getElementsByClassName("window");
 let x = 0;
-console.log(x);
 
 function setRemovable() {
     let closbut;
